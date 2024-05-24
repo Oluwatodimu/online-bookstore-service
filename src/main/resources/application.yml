@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name:online-bookstore-service
+
+  jackson:
+    default-property-inclusion: non_null
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/bookstore_backend?createDatabaseIfNotExist=true
+    username: root
+    password:
+    hikari:
+      poolName: Hikari
+      auto-commit: false
+      data-source-properties:
+        cachePrepStmts: true
+        prepStmtCacheSize: 250
+        prepStmtCacheSqlLimit: 2048
+        useServerPrepStmts: true
+      connection-test-query: SELECT 1
+
+jwt:
+  key: jxgEQeXHuPq8VdbyYFNkANdudQ53YUn4bvtbyunimim
