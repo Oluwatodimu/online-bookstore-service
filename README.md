@@ -5,7 +5,7 @@ and Java.
 
 My submission is in 3 parts:
 1. the code repo and the `readme` file for setting up the project
-2. the [design-explanation.md](https://github.com/Oluwatodimu/banking-service/blob/main/discussion.md) file where I discuss what I did in the project
+2. the [design-explanation.md](https://github.com/Oluwatodimu/online-bookstore-service/blob/main/design-explanation.md) file where I discuss what I did in the project
 3. the postman collection that can be accessed [here](https://www.postman.com/lively-firefly-891824/workspace/my-public-workspace/collection/18629385-c00572dc-13f4-435f-82bf-ac0cbd2d85ed?action=share&creator=18629385&active-environment=18629385-2ebf7579-7078-4850-aa98-2d7284008d14)
 
 This readme file will show you how to do setup this project, start the application and run the required tests.
